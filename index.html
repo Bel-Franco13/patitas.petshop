@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patitas pet shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/e1405d74cf.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.png" type="image/png">
+    
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="img/patitaslogo.svg" alt="Logo PATITAS">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li> <a href="#">INICIO</a></li>
+                <li> <a href="#productos-perros">PERROS</a></li>
+                <li> <a href="#productos-gatos">GATOS</a></li>
+                <li> <a href="#">SERVICIOS</a></li>
+                <li> <a href="#ubicacion">UBICACION</a></li>
+                <li > <a href="#formulario">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+     <!-- seccion presentacion -->
+     <section class="presentacion">
+        <div class="contenedor-texto">
+            <h1> Bienvenido a Patitas pet shop </h1>
+            <p>Creemos que las mascotas son más que solo animales, son miembros de la familia. Por eso, nos comprometemos a brindarte los mejores productos y servicios para que tu mascota reciba el cuidado y amor que merece.</p>
+        </div>
+            
+        <div class="contenedor-imagen">
+                <img src="img/presentacion1.png" alt="Imagen mascotas">
+        </div>
+    </section>
+
+     <!-- seccion marcas -->
+     <section class="marcas">
+        <h2>Marcas con las que trabajamos,para brindarte lo mejor:</h2>
+        <div class="contenedor-logos">
+            <img src="img/marca1.png" alt="Marca 1">
+            <img src="img/marca2.png" alt="Marca 2">
+            <img src="img/marca3.png" alt="Marca 3">
+            <img src="img/marca4.png" alt="Marca 4">
+            <img src="img/marca5.svg" alt="Marca 5">
+            <img src="img/marca6.png" alt="Marca 6">
+        </div>
+        <button class="ver-mas">VER TODAS LAS MARCAS</button>
+    </section>
+
+    <main>
+        <!-- productos para perros -->
+        <section id="productos-perros">
+            <h2>PERROS</h2>
+            <p>Te ofrecemos comida, juguetes, snacks y mucho más para tu perro:</p>
+            <div class="contenedor-cards">
+
+                <div class="card-producto">
+                    <img src="img/perroscomida.jpg" alt="Producto 1">
+                    <p>Pro Plan Adulto Raza Mediana x 15+3 Kg</h4>
+                    <p><b>$35.000</b></p>
+                    <button>Comprar</button>
+			    </div>
+                
+                <div class="card-producto">
+                <img src="img/perroslata.jpg" alt="Producto 2">
+                    <p>Agility Dog Adulto Pollo x 340gr</p>
+                    <p><b>$3.500</b></p>
+                    <button>Comprar</button>
+                </div>
+                
+                <div class="card-producto">
+                    <img src="img/perrosjuguete1.jpg" alt="Producto 3">
+                    <p>Pelota Perro, Diam. 7 cm</p>
+                    <p><b>$4.500</b></p>
+                    <button>Comprar</button>
+                </div>
+                
+                <div class="card-producto">
+                    <img src="img/perroschapita.jpg" alt="Producto 4">
+                    <p>Chapita Id Strass</p>
+                    <p><b>$6.000</b></p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <button class="ver-mas">VER MÁS</button>
+        </section>
+
+         <!-- productos para gatos -->
+         <section id="productos-gatos">
+            <h2>GATOS</h2>
+            <p>Te ofrecemos comida, juguetes, snacks y mucho más para tu gato:</p>
+            <div class="contenedor-cards">
+
+                <div class="card-producto">
+                    <img src="img/gatosobre.jpg" alt="Producto 1 gatos">
+                    <p>Pouch Whiskas Pollo En Salsa X 85 Grs Adulto</p>
+                    <p><b>$800</b></p>
+                    <button>Comprar</button>
+			    </div>
+                
+                <div class="card-producto">
+                    <img src="img/gatosjuguete.jpg" alt="Producto 2 gatos">
+                    <p>Pack 6 Pelotas 3,5 Cm</p>
+                    <p><b>$3.500</b></p>
+                    <button>Comprar</button>
+                </div>
+                
+                <div class="card-producto">
+                    <img src="img/gatoscomida.jpg" alt="Producto 3 gatos">
+                    <p>Cat Chow Adulto Carne Y Pollo X 500 Grs</p>
+                    <p><b>$3.500</b></p>
+                    <button>Comprar</button>
+                </div>
+                
+                <div class="card-producto">
+                    <img src="img/gatostransportador.jpg" alt="Producto 4 gatos">
+                    <p>Transportador Carrier Roja Med H/ 8 Kg</p>
+                    <p><b>$60.000</b></p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <button class="ver-mas">VER MÁS</button>
+        </section>
+    </main>
+             
+<!-- seccion consejos -->
+<div class="consejos">
+    <h2>¿Tenes un nuevo integrante en la familia?</h2>
+    <p>Te recomendamos ver este video:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8wBhhjC_N7Y?si=_0qmG_JkD1o78yxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+</div>
+<!-- seccion ubicacion -->
+ <div id="ubicacion">
+    <h2>Conoce donde nos ubicamos</h2>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.4170951270266!2d-58.48954808039533!3d-34.69465838563929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccec9b0b81347%3A0x2d535903c90a3fe5!2sBarros%20Pazos%201374%2C%20B1768DOZ%20Villa%20Celina%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1731471412196!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    </div>
+
+<!-- formulario -->
+
+<section id="formulario">
+    <form action="">
+        <h2>¿Tenes alguna consulta?</h2>
+        <p>Completa el formulario y nos contactaremos a la brevedad.</p>
+        
+        <div class="input-group">
+       
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    
+        <label for="phone">Teléfono</label>
+        <input type="tel" name="phone" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message" cols="30" rows="5">Escriba aquí su mensaje...</textarea>
+        
+        <input class="btn" type="submit" value="Enviar">
+
+     </div>
+    </form>
+
+</section>
+
+ 
+
+    <!-- boton flotante fa-whatsapp -->
+<a href="https://wa.me/1557275513" class="btn-wsp" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<footer>
+
+<p> © PATITAS PET SHOP 2024. Todos los derechos reservados</p>
+
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
